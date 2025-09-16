@@ -1,0 +1,16 @@
+{
+  "name": "js-latest-features-cheatsheet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "arrays": "node examples/arrays.mjs",
+    "sets": "node examples/sets.mjs",
+    "promise": "node examples/promise-with-resolvers.mjs",
+    "regex": "node examples/regex-v.mjs",
+    "atomics": "node examples/atomics/main.mjs",
+    "cli": "node examples/cli.mjs",
+    "detect": "node examples/feature-detect.mjs"
+  }
+}
